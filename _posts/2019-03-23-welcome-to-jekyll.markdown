@@ -4,26 +4,13 @@ title:  "AI 엔지니어를 꿈꾸는 대학생의 학습 및 프로젝트 일�
 date:   2025-01-23 21:03:36 +0530
 categories: Python C
 ---
-아무것도 하지않으면 아무일도 일어나지 않는다.
+Persistence is the quality of winners
 
-```javascript
-const Razorpay = require('razorpay');
+저는 막연하게 AI 엔지니어라는 꿈을 가진 대학생입니다. 
+현재 상명대학교 휴먼지능정보공학과를 재학중이며, 이 블로그는 여태까지 공부해왔던 것들, 
+그리고 앞으로 공부할 내용들을 정리하고 기록하기 위해 개설하였습니다. 
+앞으로의 과정들을 꾸준히 기록해나가며 성장하는 과정을 꾸준히 담아보겠습니다.
 
-let rzp = Razorpay({
-    key_id: 'KEY_ID',
-    secret: 'name'
-});
 
-// capture request
-rzp.capture(payment_id, cost)
-    .then(function (data) {
-        return 2;
-    })
-```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
 

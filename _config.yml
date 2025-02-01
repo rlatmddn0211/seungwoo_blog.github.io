@@ -24,19 +24,9 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-    #email: jekyll
+    github:  rlatmddn0211
+    instagram: _seung_wooo
+    email: rlatmddn0211@gmail.com
 
     # Mastodon instances
     # mastodon:
@@ -44,6 +34,11 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
+  navigation:
+    -title: Home
+        url:"/home"
+    -title: Projects
+        url:"/projects"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up

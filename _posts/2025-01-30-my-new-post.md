@@ -15,20 +15,20 @@ Sep 02, 2024 ~ Oct 31, 2024
 위 사진은 내가 받은 데이터이다. 2학년 1학기까지 이렇게 큰 데이터를 다뤄본적은 없었다. 해당 데이터의 일변량과 다변량을 시각화, 비시각화 등을 해보며 프로젝트를 진행하였다. 프로젝트를 진행하며 월별로 날짜별 승하차총승객수 그래프를 Pointplot으로 표현해보고, 패턴을 파악하던 중, 이상한 점을 발견했던 것이 기억에 남는다.
 
 <center>
-    <img src="/assets/images/2.png" width=800 />
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/2.png" width=800 />
 </center>
 
 사진을 보면 7일 간격으로 비슷한 패턴을 찾아볼 수 있다. 가장 높은 승하차총승객수를 가지는 날짜들을 확인해보았다. 1월 4일, 1월 11일, 1월 18일.. 이렇게 7일 간격으로 반복되고 있었고, 2019년 달력을 통해 이 날짜들은 모두 금요일이라는 것을 알게되었다. 이 그래프의 패턴이 반복된다면, 금요일 자체가 지하철 승하차총승객수가 가장 많을 것이라고 예측했다. 그리고 요일별 지하철 승하차총승객수 그래프를 통해 확인해보았다.
 
 <center>
-    <img src="/assets/images/3.png" width=700/>
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/3.png" width=700/>
 </center>
 
 목요일이었다. 우리의 예상과는 달랐다. 분명 Pointplot에서 비슷한 패턴들이 7일간격 (일주일 간격)으로 반복되고 있었고, 달력을 통해 가장 높은 승하차총승객수를 가지는 날짜들은 모두 금요일이라는 것을 확인했는데 왜 요일별 그래프에선 목요일로 나올까? 답은 데이터 전처리 과정에 있었다.
 
 <center>
-    <img src="/assets/images/4.png" width=300 height=360/>
-    <img src="/assets/images/5.png" width=300 height=360/>
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/4.png" width=300 height=360/>
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/5.png" width=300 height=360/>
 </center>
 
 왼쪽 사진은 처음 날짜 Mapping을 한 사진이고, 오른쪽 사진은 수정 후 요일을 다시 Mapping한 사진이다. '0'을 일주일의 시작인 일요일로 부여했을때와 월요일로 부여했을때의 차이점이었다. 나는 이러한 과정 모두가 데이터를 분석하고 목적에 맞는 전처리 과정을 거치고, 이를 바탕으로 데이터의 패턴을 파악하는 과정 중 하나라고 프로젝트 중 처음으로 느꼈다. 
@@ -37,28 +37,28 @@ Sep 02, 2024 ~ Oct 31, 2024
 
 <p style="text-align:center;"><strong>1. 요일 중에서는 금요일이 지하철 이용객이 가장 많았다.</strong></p>
 <center>
-    <img src="/assets/images/7.png" width="700" />
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/7.png" width="700" />
 </center>
 
 
 
 <p style="text-align:center;"><strong>2. 공휴일 및 주말에는 지하철 승객 수가 많지 않다.</strong></p>
 <center>
-    <img src="/assets/images/8.png" width="700" />
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/8.png" width="700" />
 </center>
 
 
 
 <p style="text-align:center;"><strong>3. 교통의 중심지 및 직장가 인근에는 지하철 승객수가 많다.</strong></p>
 <center>
-    <img src="/assets/images/6.png" width="700" />
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/6.png" width="700" />
 </center>
 
 
 
 <p style="text-align:center;"><strong>4. 인구수와 지하철 총 승객 수는 상관관계가 없다.</strong></p>
 <center>
-    <img src="/assets/images/9.png" width="700" />
+    <img src="https://rlatmddn0211.github.io/seungwoo_blog.github.io/assets/images/9.png" width="700" />
 </center>
 
 
